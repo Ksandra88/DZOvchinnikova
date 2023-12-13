@@ -1,5 +1,5 @@
-import ColorData.Animaldata;
-import ColorData.Commands;
+import colorData.Animaldata;
+import colorData.Commands;
 import factory.AnimalFactory;
 import pets.*;
 import validators.CommandValidator;
@@ -86,17 +86,4 @@ public class Main {
         }
     }
 }
-       // Cat cat1 = new Cat(3,"Мурка", 6, "Белый");
-       // Dog dog1 = new Dog(7,"Шарик",10,"Рыжий");
-      //  Duck duck1 = new Duck(2, "Утка", 3, "Серая");
-      //  Fly fly1 = new Fly(2, "Муха", 1,"Зелёная");
 
-     //   duck1.fly();
-     //   fly1.Fly();
-
-       // duck1.say();
-      //  fly1.say();
-       // cat1.say();
-       // dog1.say();
-    //}
-        //}

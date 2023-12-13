@@ -1,6 +1,6 @@
 package factory;
 
-import ColorData.Animaldata;
+import colorData.Animaldata;
 import pets.Animal;
 import pets.Cat;
 import pets.Dog;

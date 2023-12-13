@@ -1,7 +1,5 @@
 package pets;
 
-import ColorData.ColorData;
-
 public class Fly extends Animal implements Flying {
     public Fly(int age, String name, int weight, String color) {
         super(age, name, weight, color);

@@ -6,11 +6,11 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public abstract class Animal {
-    protected String name = "";
-    protected int age = -1;
-    protected String color = null;
-    protected int weight = -1;
-    protected NumberValidator numberValidator = new NumberValidator();
+    private String name = "";
+    private int age = -1;
+    private String color = null;
+    private int weight = -1;
+    private NumberValidator numberValidator = new NumberValidator();
 
 
 
@@ -27,6 +27,7 @@ public abstract class Animal {
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
@@ -37,12 +38,12 @@ public abstract class Animal {
             if (numberValidator.isNumber(ageStr, Pattern.compile("^\\d+$"))){
                 data = Integer.parseInt(ageStr);
                 if(data > 50 || data <= 0) {
-                    System.out.println("Ошибка возраста!");
+                    System.out.println("Ошибка ввода!");
                     continue;
                 }
                 break;
             }
-            System.out.println("Ошибка возраста!");
+            System.out.println("Ошибка ввода!");
 
         }
         return data;

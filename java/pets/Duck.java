@@ -1,7 +1,5 @@
 package pets;
 
-import ColorData.ColorData;
-
 public class Duck extends Animal implements Flying {
 
     public Duck(int age, String name, int weight, String color) {

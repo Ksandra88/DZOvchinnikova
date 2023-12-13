@@ -1,4 +1,4 @@
-package ColorData;
+package colorData;
 
 public enum ColorData {
     BLACK("чёрный");
